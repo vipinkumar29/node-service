@@ -1,0 +1,29 @@
+{
+  "name": "node-service",
+  "version": "1.0.0",
+  "description": "node-service",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "cross-env NODE_ENV=development nodemon server.js -- -v",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vipinkumar29/node-service.git"
+  },
+  "author": "Vipin Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vipinkumar29/node-service/issues"
+  },
+  "homepage": "https://github.com/vipinkumar29/node-service#readme",
+  "dependencies": {
+    "cross-env": "^2.0.1",
+    "hapi": "^15.0.3",
+    "nconf": "^0.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.2"
+  }
+}
