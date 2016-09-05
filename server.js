@@ -3,6 +3,7 @@
 const Hapi = require('hapi');
 const config = require('./config');
 const routes = require('./routes');
+const Logger = require('./logger');
 
 const host = config('HOST');
 const port = config('PORT');
@@ -19,9 +20,10 @@ server.connection({
 server.route(routes);
 
 //start the server
+Logger.info('Starting server');
 server.start((error) => {
   if(error){
     throw error;
   }
-  console.log(`Server running at : ${server.info.uri}`);
+  Logger.info(`Server running at : ${server.info.uri}`);
 });

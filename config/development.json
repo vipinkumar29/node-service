@@ -1,4 +1,9 @@
 {
   "HOST": "127.0.0.1",
-  "PORT": "3000"
+  "PORT": "3000",
+  "LOG_LOCATION": "./log/node-service.log",
+  "FILE_LOG_LEVEL": "debug" ,
+  "CONSOLE_LOG_LEVEL": "debug",
+  "FILE_LOG_MAXSIZE": 5242880,
+  "FILE_LOG_MAXFILES": 10
 }
