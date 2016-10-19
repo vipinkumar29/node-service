@@ -20,6 +20,7 @@
   "homepage": "https://github.com/vipinkumar29/node-service#readme",
   "dependencies": {
     "cross-env": "^2.0.1",
+    "good": "^7.0.2",
     "hapi": "^15.0.3",
     "nconf": "^0.8.4",
     "winston": "^2.2.0"
