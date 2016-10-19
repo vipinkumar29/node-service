@@ -22,7 +22,11 @@
     "cross-env": "^2.0.1",
     "good": "^7.0.2",
     "hapi": "^15.0.3",
+    "hapi-swagger": "^7.4.0",
+    "inert": "^4.0.2",
+    "joi": "^9.2.0",
     "nconf": "^0.8.4",
+    "vision": "^4.1.0",
     "winston": "^2.2.0"
   },
   "devDependencies": {
